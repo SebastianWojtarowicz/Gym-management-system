@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="PL">
+
+<head>
+      
+	  <meta charset="utf-8" />
+	  <meta name="description" content="" />
+	  <meta name="keywords" content="gym, sport, fitness, siłownia, crossfit, sylwetka" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+      <meta http-equiv="X-UA-Compatible" />
+      <title>MyFitness</title>
+      <link rel="stylesheet" href="style.css?v=1" type="text/css" />  
+      <script src="script.js" defer></script>
+	  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ 	
+</head>
+
+<body>
+
+        <header>
+		  
+		  <nav class="navbar">
+		             <a class="logo" href="index.html">My<span style="color: #ffaa00;">Fitness</span></a>
+					 <a href="#"class="toggle-button">
+					      <span class="bar"></span>
+					      <span class="bar"></span>
+					      <span class="bar"></span>
+					 </a>
+					 <div class="navbar-links">
+                        <ul>
+					       <li><a class="first" href="karnet.html">Kup karnet</a></li>
+					       <li><a href="zajecia.html">Zajęcia grupowe</a></li>
+					       <li><a href="biznes.html">Biznes trenera</a></li>
+                           <li><a href="logowanie.html">Logowanie</a></li>
+					    </ul>
+					 </div>
+          </nav>
+		  
+	   </header> 
+	   
+	   <main>
+	       
+		   <section class="main-content">
+		   <section class="services">
+		   
+		   <form action="zgloszenie.php" method="post">
+		         <label class="container checkmarks">
+                    <input type="radio" checked="checked" name="opcja" value="prowadzący">
+                    <span class="checkmark"></span>
+		            <article class="option">
+		             <div>
+		             <img style="margin: 0px 60px 0px 40px;" src="img/trainer1.png" width="130" height="130"></img>
+		             </div>
+		             <div>
+		             <h1>Trener prowadzący</h1> <br />
+					 <p>-Prowadzenie wybranych zajęć</p>
+					 <p>-Możliwość prowadzenia treningów personalnych 8 razy w miesiącu</p>
+					 <p>-Udostępniamy twój grafik</p>
+		             <br />
+		             <p></p> <br />
+					 <i>Odstępne: 200zł</i>
+		            </article>
+                 </label>
+                 <label class="container checkmarks">
+                    <input type="radio" name="opcja" value="freelancer">
+                    <span class="checkmark"></span>
+		            <article class="option">
+		              <div>
+		                <img style="margin: 0px 60px 0px 40px;" src="img/trainer2.png" width="130" height="130"></img>
+		              </div>
+		              <div>
+		                <h1>Freelancer</h1> <br />
+		                <p>-Możliwość prowadzenia treningów personalnych codziennie</p>
+		                <p>-Udostępniamy twój grafik</p> <br />
+		                <p></p> <br />
+						<i>Odstępne: 800zł</i>
+		             </article>
+                 </label>
+                    
+				   <div id="buy2">
+			       <h1>Wyślij swoje zgłoszenie</h1>
+				   <input type="text" name="imie" placeholder="Imię"> 
+				   <input type="text" name="nazwisko" placeholder="Nazwisko">
+				   <input type="text" name="nr" placeholder="Numer telefonu"> 
+                   <input type="submit" value="WYŚLIJ">
+				   </div>
+				   </form>
+				   
+		  </section>
+          </section>
+		   
+	   </main>
+	   
+	   <footer>
+	   
+			<div class="middlefooter">
+ 	        <div class="leftfooter">
+             <p style="font-size: 18px; margin-top: 5px"><i></i>Dane kontaktowe</p>
+             <br />
+			 <!--<p><i class="fas fa-map-marker-alt f-first-icon"></i>   Świnoujście, ul.Salomona 23</p>-->
+             <p><i></i>   Miasto, ul.Salomona 23</p>
+			 <!--<p><i class="fas fa-phone-alt f-second-icon"></i>  886 775 223</p>-->
+             <p><i></i>  886 775 223</p>
+			 <!--<p><i class="fas fa-envelope f-third-icon"></i>  figaro@gmail.com</p>-->
+             <p><i></i>  email@gmail.com</p>
+			</div>
+			
+			<div class="rightfooter">
+			<p style="padding-bottom: 10px; padding-top: 5px">Zaprzyjaźnione firmy</p>
+			<a href="https://sklep.sfd.pl/"><img src="img/sfd.png" alt="SFD" width="80" height="24"></img></a>
+			<a href="https://sklep.kfd.pl/"><img src="img/kfd.png" alt="KFD" width="72" height="37"></img></a>
+			<a href="https://gbs.pl"><img src="img/gbs.png" alt="GBS" width="84" height="30"></img></a>
+			</div> <br> <br> <br> <br> <br> <br> <br> 
+			<span style="clear: both;"> </span>
+			</div>
+			
+			<div style="background-color: #202027; height: 40px; margin-top: auto;">
+                <p class="copy"><a href="https://www.linkedin.com/in/sebastian-wojtarowicz/" style="color: black">Sebastian Wojtarowicz &copy; 2020</a></p>
+			<div>
+			
+	   </footer>
+
+</body>
+</head>
+</html>

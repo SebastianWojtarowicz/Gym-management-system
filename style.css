@@ -1,0 +1,556 @@
+/*#ffaa00 #3399ff #333 #f2f2f2*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;900&display=swap');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body
+{
+	min-width: 288px;
+}
+
+header
+{
+	position: sticky;
+	top: 0;
+}
+
+.navbar 
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: #3399ff;
+	color: white;
+	height: 105px;
+}
+
+
+
+.logo
+{
+	font-family: "Verdana";
+	font-weight: bold;
+	color: #fff;
+	font-size: 2rem;
+	margin: 33px 0px 0px 80px;
+}
+
+.navbar-links ul
+{
+	margin: 25px;
+	padding: 0;
+	display: flex;
+}
+
+.navbar-links li a
+{
+	color: white;
+	padding: 9px 25px;
+	display: block;
+	border: 1px solid #666;
+	border-radius: 25px;
+	margin: 10px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.first
+{
+	background: #ffaa00;
+}
+
+.navbar-links li a:hover
+{
+	background-color: #ffaa00;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.first:hover 
+{
+	background: rgba(0, 255, 0, 0.7) !important;
+	border-color: rgba(0, 255, 0, 0.7);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.toggle-button
+{
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar 
+{
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.intro
+{
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("img/menu.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	font-family: "Impact";
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+}
+
+.introtext
+{
+	margin-top:auto;
+	margin-bottom: auto;
+	font-size: 120px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Bebas Neue', cursive;
+}
+
+h1
+{
+     font-family: 'Rubik', sans-serif;
+	 font-size: 30px;
+}
+
+.main-content
+{
+	display: flex;
+	justify-content: center;
+}
+
+.services
+{
+	font-family: 'Rubik', sans-serif;
+}
+
+.content
+{
+	display: flex;
+    flex-direction: row;
+	margin: 400px 0px 200px 0px;
+	font-size: 25px;
+	border-bottom: 4px dotted #ffcc88;
+}
+
+.content:nth-child(1)
+{
+	margin-top: 100px;
+}
+
+.content:nth-child(4)
+{
+	margin-bottom: 150px;
+	padding-bottom: 30px;
+}
+
+.content-links
+{
+	background: #3399ff; 
+	padding: 5px; 
+	margin-left: 560px; 
+	color: white;
+	box-shadow: 0 16px 18px 0 rgba(51, 204, 255, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.29);
+	transition: ease 0.3s all 0s;
+	border-radius: 5px;
+}
+
+.content-links:hover
+{
+	background: #44aaff; 
+	padding: 8px;
+	margin-left: 557px;
+}
+
+footer
+{
+	font-size: 12px;
+	text-align: center;
+    font-family: Verdana;
+}
+
+.middlefooter
+{
+	background-color: #303037;
+	background-image: linear-gradient(to top right, #303037, #525259, #414148);
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	color: #edf0f1;
+}
+
+.f-first-icon
+{
+	background: #313247;
+	height: 30px; 
+	width: 30px;
+	padding: 8px 5px 5px 10px; 
+	border-radius: 15px;
+	margin-bottom: 4px;
+}
+
+.f-second-icon
+{
+	background: #313247;
+	height: 30px; 
+	width: 30px;
+	padding: 8px 0px 5px 8px; 
+	border-radius: 15px;
+	margin-bottom: 4px;
+}
+
+.f-third-icon
+{
+	background: #313247;
+	height: 30px; 
+	width: 30px;
+	padding: 8px 5px 5px 8px; 
+	border-radius: 15px;
+}
+
+.leftfooter
+{
+    text-align: left;
+	width: 500px;
+	height: 100px;
+	color: #black;
+	float: left;
+	font-weight: bold;
+	padding-right: 50px;
+}
+
+.rightfooter
+{
+	text-align: center;
+	width: 500px;
+	height: 100px;
+	padding-top: 6px;
+	color: #black;
+	float: left;
+	font-weight: bold;
+}
+
+.copy
+{
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	text-align: right;
+	padding-top: 10px;
+}
+
+.box
+{
+  margin: 170px 20px 0px 20px;
+  width: 300px;
+  height: 500px;
+  padding: 40px;
+  background: #3399ff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.box h1
+{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "password"]
+{
+  border:0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ffaa00;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus
+{
+	background: #ffcc99;
+}
+
+.box input[type = "submit"]
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "submit"]:hover
+{
+  background: #2ecc71;
+}
+
+.option
+{
+	display: flex;
+    flex-direction: row;
+	margin: 100px 0px 100px 0px;
+	font-size: 25px;
+	border: 4px dotted #ffcc88;
+}
+
+.option i
+{
+	margin-left: 500px;
+	font-size: 36px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmarks
+{
+	cursor: pointer;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .option {
+  background-color: #fff7e6;
+  transition: ease 0.3s all 0s;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmarks {
+  background-color: #2196F3;
+}
+
+.container input:checked ~ .option {
+  background-color: #bfff80;
+}
+
+#buy
+{
+	text-align: center;
+	background: #3399ff;
+	width: 300px;
+	height: 190px;
+	padding-top: 15px;
+	margin-bottom: 20px;
+	margin-left: 400px;
+	border-radius: 5px;
+}
+
+#buy input[type="text"]
+{
+    border:0;
+    background: white;
+    border: 2px solid #ffaa00;
+	height: 30px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+}
+
+#buy input[type="submit"]
+{
+	background: #66ff33;
+	border: 0;
+	outline: none;
+	height: 30px;
+	width: 60px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Rubik', sans-serif;
+}
+
+#buy h1
+{
+	font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#buy2
+{
+	text-align: center;
+	background: #3399ff;
+	width: 300px;
+	height: 300px;
+	padding-top: 15px;
+	margin-bottom: 100px;
+	margin-left: 320px;
+	border-radius: 5px;
+}
+
+#buy2 input[type="text"]
+{
+    border:0;
+    background: white;
+    border: 2px solid #ffaa00;
+	height: 20px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+}
+
+#buy2 input[type="submit"]
+{
+	background: #66ff33;
+	border: 0;
+	outline: none;
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+}
+
+#buy2 h1
+{
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.user
+{
+  margin: 170px 20px 0px 20px;
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  background: #3399ff;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.user h1
+{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.user-form
+{
+	border: 3px solid #ffaa00;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.user-form input[type="submit"], input[type="text"]
+{
+	border:0;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffaa00;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.user-form input[type="submit"]
+{
+    border-color: #2ecc71;
+	background: #4fee93;
+}
+
+.user-form input[type="submit"]:hover
+{
+	background: #2ecc71;
+	cursor: pointer;
+}
+
+@media (min-width: 622px)
+{
+	.navbar-links ul
+{
+	
+}
+
+}
+
+@media (max-width: 940px)
+{
+	.toggle-button
+	{
+		display: flex;
+		margin: 33px 33px 0px 0px;
+	}
+	
+	.navbar-links
+	{
+	display: none;
+	width: 100%;
+	}
+	
+	.navbar
+	{
+		flex-direction: column;
+	}
+	
+	.navbar-links ul
+	{
+		width: 100%;
+	    flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.navbar-links li
+	{
+		text-align: center;
+	}
+	
+	.navbar-links li a 
+	{
+		border: none;
+	}
+	
+	.navbar-links.active
+	{
+		display: flex;
+		background-color: #3399ff;
+		z-index: 100;
+	}
+}
