@@ -1,7 +1,7 @@
-## Gym-management-system
+# Gym-management-system
 Website project that helps managing small gym
 
-To see all the features of that project without running it on the server, open file "features.mp4".
+## To see all the features of that project without running it on the server, open file "features.mp4".
 
 It contains following features:
 
